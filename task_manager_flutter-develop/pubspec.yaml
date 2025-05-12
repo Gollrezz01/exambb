@@ -1,0 +1,50 @@
+name: todo_app
+description: A simple TODO app just for learning Flutter and firebase.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl:
+  flutter_local_notifications: ^1.2.1
+  auto_route: ^0.3.1
+  flushbar: ^1.9.1
+  ff_navigation_bar: ^0.1.4
+  flutter_flexible_toast: ^0.1.4
+  cloud_firestore: ^0.13.4+2
+  font_awesome_flutter: ^8.7.0
+  flutter_svg: ^0.17.1
+  uuid: ^2.0.4
+  localstorage: ^3.0.0
+  validators: ^2.0.0
+  flutter_spinkit: ^4.1.2
+  cupertino_icons: ^0.1.2
+  equatable: ^1.1.0
+  flutter_bloc: ^3.2.0
+  simple_animations: ^1.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  auto_route_generator: ^0.3.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+        - asset: fonts/OpenSans-ExtraBold.ttf
+        - asset: fonts/OpenSans-Light.ttf
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-SemiBold.ttf
